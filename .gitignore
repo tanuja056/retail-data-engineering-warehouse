@@ -1,0 +1,23 @@
+@'
+# Raw datasets - do not upload
+data/raw/*
+!data/raw/.gitkeep
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.databrickscfg
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Large source files
+*.xlsx
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+'@ | Set-Content .gitignore
